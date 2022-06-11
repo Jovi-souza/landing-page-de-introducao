@@ -1,39 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="css/StyleMobile.css">
+  <title>Intro section with dropdown navigation</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
-
-  Features
-  Company
-  Careers
-  About
-
-  Login
-  Register
-
-  Make remote work
-
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more
-  
+  <header class="Header">
+    <div class="logo">
+      <img src="images/logo.svg">
+    </div>
+    <nav class="navBarMobile navBarDesktop">
+      <ul class="listLinks">
+        <img src="images/icon-menu.svg">
+        <img src="images/icon-close-menu.svg">
+        <li class="navLinks">
+          Features
+          <img src="images/icon-arrow-down.svg">
+          <img src="images/icon-arrow-up.svg">
+          <div class="hidenItensFeatures">
+            <ul>
+              <li><img src="images/icon-todo.svg"> Todo list</li>
+              <li><img src="images/icon-calendar.svg"> Calendar</li>
+              <li><img src="images/icon-reminders.svg"> Reminders</li>
+              <li><img src="images/icon-planning.svg"> Planning</li>
+            </ul>
+          </div>
+        </li>
+        <li class="navLinks">
+          Company
+          <img src="images/icon-arrow-down.svg">
+          <img src="images/icon-arrow-up.svg">
+          <div class="hidenItensCompany">
+            <ul>
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </li>
+        <li class="navLinks">
+          Careers
+        </li>
+        <li class="navLinks">
+          About
+        </li>
+      </ul>
+      <ul class="login">
+        <li class="navLogin">
+          Login
+        </li>
+        <li class="navLink">
+          Register
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="mainGrid">
+    <h1 class="MainTitle">
+      Make remote work
+    </h1>
+    <p class="MainParagraph">
+      Get your team in sync, no matter your location. Streamline processes,
+      create team rituals, and watch productivity soar.
+    </p>
+    <button class="BtnLearnMore">
+      Learn more
+    </button>
+    <div class="MainImg">
+      <img src="images/image-hero-mobile.png" class="ImgMobile">
+      <img src="images/image-hero-desktop.png" class="ImgDesktop">
+    </div>
+  </main>
+  <footer class="Footer">
+    <ul>
+      <li><img src="images/client-databiz.svg"></li>
+      <li><img src="images/client-audiophile.svg"></li>
+      <li><img src="images/client-meet.svg"></li>
+      <li><img src="images/client-maker.svg"></li>
+    </ul>
+  </footer>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+
 </html>
