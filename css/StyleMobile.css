@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.Hidden {
+    display: none;
+}
+
+.header {
+    position: relative;
+}
+
+.logo {
+    margin: 1.5em 0 .5em 1em;
+}
+
+.navBarMobile {
+    display: none;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    background-color: #fff;
+    width: 60vw;
+    height: 100vh;
+    padding: 1.3em;
+}
+
+.menuHamburguer {
+    position: absolute;
+    top: 1.5em;
+    right: 1em;
+
+    width: 1.5em;
+}
+
+.closeMenuHamburguer {
+    margin-left: 8em;
+}
+
+.navLinks {
+    margin: 1.5em 0;
+}
+
+.arrowUp {
+    display: none;
+}
+
+.arrowDown {}
+
+.hidenItensFeatures {
+    display: none;
+    background-color: red;
+    width: max-content;
+}
+
+.hidenItensCompany {
+    display: none;
+    background-color: red;
+    width: max-content;
+}
+
+.navLogin {
+    margin: 1.5em auto;
+    width: max-content;
+}
+
+.navRegister {
+    width: max-content;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5em 3em;
+}
+
+/* main */
+
+.ImgMobile {
+    width: 100vw;
+}
+
+.ImgDesktop {
+    display: none;
+}
+
+.MainTitle {
+    text-align: center;
+    margin: .5em 0;
+}
+
+.MainParagraph {
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.BtnLearnMore {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+
+    padding: 1em 2em;
+    width: max-content;
+    margin: 1em 7em;
+}
+
+/* footer */
+
+.logoFooter {
+    display: flex;
+    margin: 1em auto;
+}
+
+.logoFooterImg {
+    height: 1em;
+    margin: 0 .5em;
+}
