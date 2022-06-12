@@ -1,0 +1,58 @@
+@media screen and (min-width: 700px) {
+    .Header {
+        display: flex;
+    }
+
+    .logo {
+        margin: 1.5em 0 .5em 1em;
+    }
+
+    .navBarMobile {
+        display: flex;
+
+        position: relative;
+
+        background-color: #fff;
+        width: max-content;
+        height: max-content;
+        padding: 0;
+    }
+
+    .menuHamburguer {
+        display: none;
+    }
+
+    .closeMenuHamburguer {
+        display: none;
+    }
+
+    .navLinks {
+        margin: 1.5em;
+        cursor: pointer;
+    }
+
+    .navRegister {
+        margin-left: 3em;
+    }
+
+    .listLinks {
+        display: flex;
+        margin: 0 1em;
+    }
+
+    .login {
+        display: flex;
+        margin-left: 38em;
+    }
+
+    /* main */
+    .ImgMobile {
+        display: none;
+    }
+
+    .ImgDesktop {
+        display: block;
+
+        width: 20em;
+    }
+}
