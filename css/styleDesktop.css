@@ -27,25 +27,40 @@
     }
 
     .navLinks {
-        margin: 1.5em;
+        font-size: 12px;
+        margin: 2em 2em;
+        cursor: pointer;
+    }
+
+    .navLogin {
+        font-size: 12px;
         cursor: pointer;
     }
 
     .navRegister {
+        cursor: pointer;
+        font-size: 10px;
         margin-left: 3em;
     }
 
     .listLinks {
         display: flex;
+        height: 1em;
         margin: 0 1em;
     }
 
     .login {
         display: flex;
-        margin-left: 38em;
+        margin: .5em 0 0 24em;
     }
 
     /* main */
+
+    .main {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     .ImgMobile {
         display: none;
     }
@@ -53,6 +68,56 @@
     .ImgDesktop {
         display: block;
 
+        width: 19em;
+        margin-right: 8em;
+    }
+
+    .content {
+        height: 25em;
+        margin: 0 0 0 7em;
+        width: 50em;
+
+    }
+
+    .MainTitle {
+        font-weight: 700;
+        text-align: justify;
+        font-size: 4em;
+        width: 6em;
+    }
+
+    .MainParagraph {
+        text-align: justify;
         width: 20em;
+        margin: 0;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .btn {
+        margin: 0;
+    }
+
+    .BtnLearnMore {
+        padding: .8em 1em;
+        width: 10em;
+        margin-top: 2em;
+    }
+
+    /* footer */
+
+    .footer {
+        position: absolute;
+        left: 5em;
+        bottom: 1em;
+    }
+
+    .logoFooter {
+        margin: 1em auto;
+    }
+
+    .logoFooterImg {
+        height: 1em;
+        margin: 0 1.5em;
     }
 }
