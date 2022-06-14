@@ -121,3 +121,62 @@
         margin: 0 1.5em;
     }
 }
+
+@media screen and (min-width: 1110px) {
+    .logo {
+        margin: 1.5em 1em .5em 2em;
+    }
+
+    .navLinks {
+        font-size: 13px;
+    }
+
+    .login {
+        display: flex;
+        margin: .5em 0 0 35em;
+    }
+
+    .navLogin {
+        font-size: 14px;
+    }
+
+    .navRegister {
+        font-size: 13px;
+    }
+
+    /* main */
+
+    .ImgDesktop {
+        width: 25em;
+    }
+
+    .content {
+        margin: 0 4em 0 0;
+        width: 40em;
+    }
+
+    .MainTitle {
+        font-size: 5em;
+    }
+
+    .MainParagraph {
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    .BtnLearnMore {
+        width: 13em;
+        margin-top: 4em;
+    }
+
+    /* footer */
+
+    .footer {
+        left: 6em;
+    }
+
+    .logoFooterImg {
+        height: 1.5em;
+        margin: 0 1.5em;
+    }
+}
