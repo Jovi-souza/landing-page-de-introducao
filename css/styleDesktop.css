@@ -56,6 +56,7 @@
 
     .hidenItensFeatures {
         margin-top: 1.5em;
+        margin-right: -7em;
         width: 10em;
         border-radius: 10px;
         padding: 10px;
@@ -68,6 +69,7 @@
 
     .hidenItensCompany {
         margin-top: 1em;
+        margin-right: -7em;
         width: 8em;
         border-radius: 10px;
         padding: 10px;
