@@ -4,27 +4,37 @@ GetMenuMobile = () => {
     const CloseMenuHamburguer = document.querySelector(".navBarMobile")
 
     menuHamburguer.classList.toggle("Hidden")
+
     CloseMenuHamburguer.classList.toggle("Hidden")
 }
 
-ArrowUp = () => {
-    const ArrowUp = document.querySelector(".arrowUp")
-    const ArrowDown = document.querySelector(".arrowDown")
+ArrowFeatures = () => {
+    const ArrowUp = document.querySelector(".arrowUpFeatures")
+    const ArrowDown = document.querySelector(".arrowDownFeatures")
 
     ArrowUp.classList.toggle("Hidden")
     ArrowDown.classList.toggle("Hidden")
 }
 
+ArrowCompany = () => {
+    const ArrowUp = document.querySelector(".arrowUpCompany")
+    const ArrowDown = document.querySelector(".arrowDownCompany")
+
+    ArrowUp.classList.toggle("Hidden")
+    ArrowDown.classList.toggle("Hidden")
+}
+
+
 GetLinksFeature = () => {
     const itensFeature = document.querySelector(".hidenItensFeatures")
 
     itensFeature.classList.toggle("Hidden")
-    ArrowUp()
+    ArrowFeatures()
 }
 
 GetLinksCompany = () => {
     const itensCompany = document.querySelector(".hidenItensCompany")
 
     itensCompany.classList.toggle("Hidden")
-    ArrowDown()[1]
+    ArrowCompany()
 }
