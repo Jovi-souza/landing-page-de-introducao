@@ -54,6 +54,30 @@
         margin: .5em 0 0 24em;
     }
 
+    .hidenItensFeatures {
+        margin-top: 1.5em;
+        width: 10em;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 2px 2px 15px 2px #2b2a2a4d;
+    }
+
+    .hidenItensFeatures li {
+        margin: .5em 0 .5em 0;
+    }
+
+    .hidenItensCompany {
+        margin-top: 1em;
+        width: 8em;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 2px 2px 15px 2px #2b2a2a4d;
+    }
+
+    .hidenItensCompany li {
+        margin: .5em 0 .5em 0;
+    }
+
     /* main */
 
     .main {
@@ -82,7 +106,8 @@
     .MainTitle {
         font-weight: 700;
         text-align: justify;
-        font-size: 4em;
+        margin: 1.5em 0 0 0;
+        font-size: 3em;
         width: 6em;
     }
 
