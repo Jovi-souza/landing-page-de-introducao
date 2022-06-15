@@ -22,14 +22,12 @@
 }
 
 .navBarMobile {
-    display: none;
-
     position: absolute;
     right: 0;
     top: 0;
     background-color: #fff;
     width: 60vw;
-    height: 100vh;
+    height: 105vh;
     padding: 1.3em;
 }
 
@@ -43,7 +41,8 @@
 }
 
 .closeMenuHamburguer {
-    margin-left: 8em;
+    width: 1em;
+    margin: -1em 0 2em 8.5em;
 }
 
 .navLinks {
@@ -60,13 +59,21 @@
 }
 
 .hidenItensFeatures {
-    display: none;
-    width: max-content;
+    margin-left: 1.5em;
+    width: 6em;
+}
+
+.hidenItensFeatures li {
+    margin: 1em 0 1em 0;
 }
 
 .hidenItensCompany {
-    display: none;
-    width: max-content;
+    margin-left: 1.5em;
+    width: 6em;
+}
+
+.hidenItensCompany li {
+    margin: 1em 0 1em 0;
 }
 
 

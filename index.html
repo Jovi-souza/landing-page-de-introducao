@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/StyleMobile.css">
   <link rel="stylesheet" href="css/styleDesktop.css">
+  <script src="js/javascript.js"></script>
   <title>Intro section with dropdown navigation</title>
 </head>
 
@@ -15,15 +16,15 @@
     <div class="logo">
       <img src="images/logo.svg">
     </div>
-    <img src="images/icon-menu.svg" class="menuHamburguer">
-    <nav class="navBarMobile navBarDesktop">
-      <img src="images/icon-close-menu.svg" class="closeMenuHamburguer">
+    <img src="images/icon-menu.svg" class="menuHamburguer" onclick="GetMenuMobile()">
+    <nav class="navBarMobile navBarDesktop Hidden">
+      <img src="images/icon-close-menu.svg" class="closeMenuHamburguer " onclick="GetMenuMobile()">
       <ul class="listLinks">
-        <li class="navLinks">
+        <li class="navLinks" onclick="GetLinksFeature()">
           Features
           <img src="images/icon-arrow-up.svg" class="arrowUp">
           <img src="images/icon-arrow-down.svg" class="arrowDown">
-          <div class="hidenItensFeatures">
+          <div class="hidenItensFeatures Hidden">
             <ul>
               <li><img src="images/icon-todo.svg"> Todo list</li>
               <li><img src="images/icon-calendar.svg"> Calendar</li>
@@ -32,11 +33,13 @@
             </ul>
           </div>
         </li>
-        <li class="navLinks">
+        <li class="navLinks" onclick="GetLinksCompany()">
           Company
+
           <img src="images/icon-arrow-up.svg" class="arrowUp">
           <img src="images/icon-arrow-down.svg" class="arrowDown">
-          <div class="hidenItensCompany">
+
+          <div class="hidenItensCompany Hidden">
             <ul>
               <li>History</li>
               <li>Our Team</li>
