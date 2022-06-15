@@ -13,6 +13,7 @@
     display: none;
 }
 
+
 .Header {
     position: relative;
 }
@@ -49,11 +50,6 @@
     margin: 1.5em 0;
 }
 
-.navLogin {
-    margin: 1.5em auto;
-    width: max-content;
-}
-
 .hidenItensFeatures {
     margin-left: 1.5em;
     width: 6em;
@@ -72,6 +68,10 @@
     margin: 1em 0 1em 0;
 }
 
+.navLogin {
+    margin: 1.5em auto;
+    width: max-content;
+}
 
 .navRegister {
     width: max-content;

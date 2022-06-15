@@ -7,6 +7,14 @@
         margin: 1.5em 0 .5em 1em;
     }
 
+    .menuHamburguer {
+        display: none;
+    }
+
+    .closeMenuHamburguer {
+        display: none;
+    }
+
     .navBarMobile {
         display: flex;
 
@@ -18,29 +26,10 @@
         padding: 0;
     }
 
-    .menuHamburguer {
-        display: none;
-    }
-
-    .closeMenuHamburguer {
-        display: none;
-    }
-
     .navLinks {
         font-size: 12px;
         margin: 2em 2em;
         cursor: pointer;
-    }
-
-    .navLogin {
-        font-size: 12px;
-        cursor: pointer;
-    }
-
-    .navRegister {
-        cursor: pointer;
-        font-size: 10px;
-        margin-left: 3em;
     }
 
     .listLinks {
@@ -52,6 +41,17 @@
     .login {
         display: flex;
         margin: .5em 0 0 24em;
+    }
+
+    .navLogin {
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .navRegister {
+        cursor: pointer;
+        font-size: 10px;
+        margin-left: 3em;
     }
 
     .hidenItensFeatures {
