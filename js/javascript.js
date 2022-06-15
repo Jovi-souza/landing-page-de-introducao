@@ -7,7 +7,7 @@ GetMenuMobile = () => {
     CloseMenuHamburguer.classList.toggle("Hidden")
 }
 
-ArrowUpDown = () => {
+ArrowUp = () => {
     const ArrowUp = document.querySelector(".arrowUp")
     const ArrowDown = document.querySelector(".arrowDown")
 
@@ -19,12 +19,12 @@ GetLinksFeature = () => {
     const itensFeature = document.querySelector(".hidenItensFeatures")
 
     itensFeature.classList.toggle("Hidden")
-    ArrowUpDown()
+    ArrowUp()
 }
 
 GetLinksCompany = () => {
     const itensCompany = document.querySelector(".hidenItensCompany")
 
     itensCompany.classList.toggle("Hidden")
-    ArrowUpDown()
+    ArrowDown()[1]
 }
